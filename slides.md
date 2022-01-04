@@ -47,9 +47,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+# 创新中心2021回顾
 
 
 - 📝 帮助中心的过渡性迁移 （基于 Next.js 和 Nest.js)
