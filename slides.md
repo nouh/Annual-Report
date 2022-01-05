@@ -51,6 +51,8 @@ By Zach Zhao
 <iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/3GvaXRZ7nFwRpk6dJAJsq8"></iframe>
 
 ---
+layout: full
+---
 
 # 帮助中心迁移
 
@@ -70,6 +72,7 @@ By Zach Zhao
 
 ---
 
+
 # 帮助中心后台文章编辑器增强
 
 <div grid="~ cols-3 gap-4" class="mt-10">
@@ -88,77 +91,48 @@ By Zach Zhao
 </div>
 </div>
 
-
 ---
-
-
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
+layout: two-cols
 ---
+# ShopExpress && TeamPro
 
-# Components
+<div class="mt-10">
 
-<div grid="~ cols-2 gap-4">
-<div>
+- 基于Next.js构建的全新子官网
 
-You can use Vue components directly inside your slides.
+- 广泛运用Tailwindcss，大幅减少冗余css，基于设计系统和工具类编写css，开发效率大幅提高
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+- 基于Nextjs的配置改造成一个多站点，复用常用组件和其他部署的配置
 
-```html
-<Counter :count="10" />
+- 混合使用SSR和SSG，各种场景下都有良好的性能优化
+
+</div>
+
+::right::
+```jsx
+<div className="flex items-center justify-end flex-none">
+    <a
+      data-wmdot="tap"
+      data-wmdot-id="rgst_top"
+      target="_blank"
+      rel="noopener noreferrer"
+      href={config && config.saasUrlList.register}
+      className="whitespace-nowrap text-[14px] text-blue-primary"
+    >
+      免费试用
+    </a>
+    <a
+      data-wmdot="tap"
+      data-wmdot-id="login"
+      href={config && config.saasUrlList.login}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="ml-[20px] w-[76px] h-[30px] whitespace-nowrap inline-flex items-center justify-center border border-blue-primary rounded-[4px] shadow-btns text-[14px] text-white bg-blue-primary"
+    >
+      登录
+    </a>
+</div>
 ```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
 
 ---
 class: px-20
