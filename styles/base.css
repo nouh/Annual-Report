@@ -8,3 +8,17 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+
+span.hl {
+  color: #DE834D;
+}
+
+li {
+  color: #C7B198;
+}
+
+li::marker {
+  content: '-';
+  color: #516BEB;
+}

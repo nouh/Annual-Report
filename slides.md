@@ -24,11 +24,8 @@ drawings:
 
 By Zach Zhao
 
-
-
-
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+你们看不见的吧
 -->
 
 ---
@@ -36,15 +33,15 @@ The last comment block of each slide will be treated as slide notes. It will be 
 # 创新中心2021回顾
 
 
-- 📝 帮助中心的过渡性迁移 （基于 Next.js 和 Nest.js)
-- 🎨 帮助中心的彻底的重构 （基于 Next.js 和 Nest.js)
-- 🧑‍💻 ShopExpress 和 TeamPro 官方网站搭建 （基于 Next.js 搭建的多站点）
+- 📝 帮助中心的过渡性迁移 <span class="hl">（基于 Next.js 和 Nest.js) </span>
+- 🎨 帮助中心的彻底的重构 <span class="hl">（基于 Next.js 和 Nest.js) </span>
+- 🧑‍💻 ShopExpress 和 TeamPro 官方网站搭建 <span class="hl">（基于 Next.js 搭建的多站点）</span>
 - 🐒 Take over 盟聚官网
-- 🤹 推广页面的低代码平台的完善（运营共创建线上页面 20+）
-- 🧔🏼‍♂️ 推广定制化页面（PC 和 Mobile 共计 20+）
-- 🎥 配合干禧的登录注册门户改造 （移交给奇文组)
-- 🛠 官网和各子官网的日常维护和迭代（案例库重整）
-- 📤 官网整体重构（筹划中）
+- 🤹 推广页面的低代码平台的完善<span class="hl">（运营共创建线上页面 20+）</span>
+- 🧔🏼‍♂️ 推广定制化页面<span class="hl">（PC 和 Mobile 共计 20+）</span>
+- 🎥 配合干禧的登录注册门户改造 <span class="hl">（移交给奇文组) </span>
+- 🛠 官网和各子官网的日常维护和迭代<span class="hl">（案例库重整）</span>
+- 📤 官网整体重构 <span class="hl">（筹划中）</span>
 
 
 ---
@@ -59,21 +56,29 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 - 共迁移文章2000+
 
-- 数据库表从2张表扩展到10张表 （整体设计更加灵活) 
+- 数据库表从2张表扩展到10张表 <span class="hl"> --- 整体设计更加灵活 </span>
 
-- 前端技术栈从Angular 1.x迁移到最新的Next.js  (开发体验和性能提升一个Level)
+- 前端技术栈从Angular 1.x迁移到最新的Next.js <span class="hl"> --- 开发体验和性能提升一个Level </span>
 
-- 后端技术栈从 Java 迁移到最新的Nest.js  (代码量减少了2/3)
+- 后端技术栈从 Java 迁移到最新的Nest.js  <span class="hl"> --- 代码量减少了2/3  </span>
 
-- 所有端都采用了Typescript增强代码的健壮性和可维护性 （编译期发现更多问题）
+- 所有端都采用了Typescript增强代码的健壮性和可维护性 <span class="hl"> --- 编译期发现更多问题 </span>
 
-- 所有代码基都统一用Prettier进行代码格式化，Eslint进行风格检查  (保持团队代码风格一致)
+- 所有代码基都统一用Prettier进行代码格式化，Eslint进行风格检查  <span class="hl">  --- 保持团队代码风格一致 </span>
 
-- 有意识的选用一些Rust Based的Tooling(Swc和Prisma)去提高开发体验和性能 （可以战未来）
+- 有意识的选用一些Rust Based的Tooling(Swc和Prisma)去提高开发体验和性能  <span class="hl"> --- 可以战未来 </span>
 
 ---
 
+# 帮助中心后台文章编辑器增强
 
+- 提供文章大纲功能
+
+- 能够复制粘贴第三方编辑器(腾讯文档、语雀)的图文内容（第三方图片链接自动批量转存CDN）
+
+- 支持多图复制自动上传
+
+- 去除多余的样式
 
 
 ---
