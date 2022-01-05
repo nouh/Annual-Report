@@ -42,40 +42,42 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - 🐒 Take over 盟聚官网
 - 🤹 推广页面的低代码平台的完善（运营共创建线上页面 20+）
 - 🧔🏼‍♂️ 推广定制化页面（PC 和 Mobile 共计 20+）
-- 🎥 配合干禧的登录注册门户改造
+- 🎥 配合干禧的登录注册门户改造 （移交给奇文组)
 - 🛠 官网和各子官网的日常维护和迭代（案例库重整）
-- 📤 官网整体重构（参与筹划）
+- 📤 官网整体重构（筹划中）
 
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-</style>
 
 ---
 
 # 帮助中心的架构迁移
 
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/3GvaXRZ7nFwRpk6dJAJsq8"></iframe>
 
-<img src="/architect.png" class="w-3/4"/>
+---
+
+# 帮助中心迁移
+
+- 共迁移文章2000+
+
+- 数据库表从2张表扩展到10张表 （整体设计更加灵活) 
+
+- 前端技术栈从Angular 1.x迁移到最新的Next.js  (开发体验和性能提升一个Level)
+
+- 后端技术栈从 Java 迁移到最新的Nest.js  (代码量减少了2/3)
+
+- 所有端都采用了Typescript增强代码的健壮性和可维护性 （编译期发现更多问题）
+
+- 所有代码基都统一用Prettier进行代码格式化，Eslint进行风格检查  (保持团队代码风格一致)
+
+- 有意识的选用一些Rust Based的Tooling(Swc和Prisma)去提高开发体验和性能 （可以战未来）
+
+---
+
+
 
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
----
+
 
 # Code
 
