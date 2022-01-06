@@ -90,6 +90,33 @@ layout: full
 </div>
 
 ---
+
+# APIFox 进行API管理和协同
+
+<div grid="~ cols-3 gap-4" class="mt-10">
+  <div class="col-span-2">
+
+  ![apifox](/apifox.png)
+ 
+  </div>
+  <div >
+
+  - 完全遵从Restful规范设计API
+
+  - 代码注解自动生成Swagger文档
+
+  - Swagger文档自动导入到Apifox
+
+  - Apifox保存并同步API调试用例
+
+  - API自动化测试
+
+  - API Mock Server
+      
+  </div>
+</div>
+
+---
 layout: two-cols
 ---
 # ShopExpress 和 TeamPro
