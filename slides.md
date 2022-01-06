@@ -20,9 +20,7 @@ drawings:
   persist: false
 ---
 
-<h1 class="home">创新中心2021年度总结</h1>
-
-By Zach Zhao
+<p class="home">创新中心2021年度总结</p>
 
 <!--
 你们看不见的吧
