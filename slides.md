@@ -56,19 +56,17 @@ layout: full
 
 # 帮助中心迁移
 
-- 共迁移文章2000+
+- 数据库表从2张表扩展到10张表，共迁移文章2000+  <span class="hl"> --- 整体设计更加灵活 </span>
 
-- 数据库表从2张表扩展到10张表 <span class="hl"> --- 整体设计更加灵活 </span>
+- 前端从Angular 1.x迁移到 Next.js <span class="hl"> --- 开发体验和性能提升一个Level </span>
 
-- 前端技术栈从Angular 1.x迁移到最新的Next.js <span class="hl"> --- 开发体验和性能提升一个Level </span>
+- 后端从 Java 迁移到 Nest.js  <span class="hl"> --- 代码量减少了2/3  </span>
 
-- 后端技术栈从 Java 迁移到最新的Nest.js  <span class="hl"> --- 代码量减少了2/3  </span>
+- 全端Typescript <span class="hl"> --- 编译期发现更多问题 </span>
 
-- 所有端都采用了Typescript增强代码的健壮性和可维护性 <span class="hl"> --- 编译期发现更多问题 </span>
+- 全端Prettier进行代码格式化，Eslint进行风格检查  <span class="hl">  --- 保持团队代码风格一致 </span>
 
-- 所有代码基都统一用Prettier进行代码格式化，Eslint进行风格检查  <span class="hl">  --- 保持团队代码风格一致 </span>
-
-- 有意识的选用一些Rust Based的Tooling(Swc和Prisma)去提高开发体验和性能  <span class="hl"> --- 可以战未来 </span>
+- 选用一些Rust Based的Tooling(Swc和Prisma)增强开发体验和性能  <span class="hl"> --- 可以战未来 </span>
 
 ---
 
@@ -143,3 +141,66 @@ layout: full
 ---
 ![teampro](/teampro.png)
 ---
+
+# 对于前端技术部的目标贡献
+
+<br>
+
+- 保证辖区内的线上业务系统的稳定运行，全年200+次发布，没发生严重的线上事故
+
+- 有序稳健的进行技术栈的升级，减轻既有的技术债
+
+- 新作的子官网和帮助中心给用户体验带来良好的提升
+
+---
+
+# 团队管理 - 能力提高部分
+ > 我相信最好的管理是相互成就
+
+
+<div grid="~ cols-2 gap-4" class="mt-10">
+  <div>
+
+  ### 管理动作
+
+  - 不定期分享有价值的技术文章，激发讨论
+
+  - 训练团队用英文检索技术问题的习惯
+
+  - 落地新技术到实际项目中去
+
+  - 合理分配任务，每个人尽量参与更多的项目
+
+  - 有效示范解决棘手问题的步骤
+
+  </div>
+  <div>    
+
+  ### 管理效果
+
+  - 团队内讨论问题的气氛活跃
+
+  - 更好的追根溯源
+
+  - 保持对技术的热情和新鲜感，提高技术自信
+
+  - 每个项目都可以尽量互相Backup
+
+  - 提高独立解决问题的能力和自信心
+
+  </div>
+</div>
+
+
+---
+
+# 团队管理 - 梯度建设部分
+
+<iframe style="border:none" width="850" height="400" src="https://whimsical.com/embed/2KwZ6xb53ixaHTTdXqN66D"></iframe>
+
+<!--
+韩鑫和程芸芸会进行重点培养，承担更多的团队责任，全栈的设计和思考的能力
+-->
+
+---
+
