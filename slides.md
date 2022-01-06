@@ -153,6 +153,13 @@ layout: two-cols
     </a>
 </div>
 ```
+---
+
+# ShopExpress 的 lighthouse 跑分
+
+<br>
+
+![lighthouse](/lighthouse.png)
 
 ---
 layout: full
