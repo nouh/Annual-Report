@@ -35,7 +35,7 @@ drawings:
 - 📝 帮助中心的过渡性迁移 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🎨 帮助中心的彻底的重构 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🧑‍💻 ShopExpress 和 TeamPro 全新子官网 <span class="hl">（基于 Next.js 的多站点）</span>
-- 🐒 Take over 盟聚官网
+- 🐒 Take over 盟聚官网, Hand over 销氪官网
 - 🤹 推广页面的低代码平台的完善<span class="hl">（运营共创建线上页面 20+）</span>
 - 🧔🏼‍♂️ 推广定制化页面<span class="hl">（PC 和 Mobile 共计 20+）</span>
 - 🎥 配合干禧的登录注册门户改造 <span class="hl">（移交给奇文组) </span>
@@ -122,7 +122,7 @@ layout: two-cols
 
 - 基于Nextjs的多站点，复用组件和配置
 
-- 运用Tailwindcss，基于设计系统和工具类编写css，开发效率++
+- 运用Tailwindcss，基于Design System和工具类编写css，开发效率++
 
 - 混合使用SSR和SSG，性能和体验++
 
