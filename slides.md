@@ -35,6 +35,7 @@ drawings:
 - 📝 帮助中心的过渡性迁移 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🎨 帮助中心的彻底的重构 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🧑‍💻 ShopExpress 和 TeamPro 全新子官网 <span class="hl">（基于 Next.js 的多站点）</span>
+- 💪 盟羿，盟效，盟购的Facebook验证页
 - 🐒 Take over 盟聚官网, Hand over 销氪官网
 - 🤹 推广页面的低代码平台的完善<span class="hl">（运营共创建线上页面 20+）</span>
 - 🧔🏼‍♂️ 推广定制化页面<span class="hl">（PC 和 Mobile 共计 20+）</span>
