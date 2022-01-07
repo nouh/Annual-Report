@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: /homepage.jpg
+background: /homepage.jpeg
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
@@ -20,7 +20,8 @@ drawings:
   persist: false
 ---
 
-<p class="home">创新中心2021年度总结</p>
+<h1 class="home">创新中心2021年度总结</h1>
+<p> By Zach Zhao </p>
 
 <!--
 你们看不见的吧
