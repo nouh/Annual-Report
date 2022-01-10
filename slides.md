@@ -24,7 +24,7 @@ drawings:
 
 # 创新中心2021回顾
 
-- 🛠 官网和各子官网的日常维护和迭代 <span class="hl">（上线200+次) </span>
+- 🛠 官网和各子官网的日常维护和迭代 <span class="hl">（上线150+次) </span>
 - 📝 帮助中心的过渡性迁移 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🎨 帮助中心的彻底的重构 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🧑‍💻 ShopExpress 和 TeamPro 全新子官网 <span class="hl">（基于 Next.js 的多站点）</span>
@@ -33,8 +33,8 @@ drawings:
 - 🐒 Take over 盟聚官网, Hand over 销氪官网
 - 💅 官网后台案例库重整  <span class="hl"> (解绑案例预警) </span>
 - 🤹 推广页面的低代码平台的完善 <span class="hl">(运营共创建线上页面 20+)</span>
-- 🧔🏼‍♂️ 推广定制化页面<span class="hl">(PC 和 Mobile 共计 20+)</span>
-- 🎥 配合干禧的登录注册门户改造 <span class="hl">(移交给奇文组)</span>
+- 🧔🏼‍♂️ 推广定制化页面 <span class="hl">(PC 和 Mobile 共计 20+)</span>
+- 🎥 配合干禧的登录注册门户改造 <span class="hl">(AC迁移到Passport，已移交给奇文组)</span>
 - 📤 官网整体重构 <span class="hl">（筹划中）</span>
 
 
@@ -84,6 +84,24 @@ layout: full
   <img src="/editor.png" class="w-full">
 </div>
 </div>
+
+---
+
+# 帮助中心首页
+
+<img src="/help-homepage.png" class="w-full">
+
+---
+
+# 帮助中心后台
+
+<img src="/help-admin.png" class="w-full">
+
+---
+
+# 帮助中心搜索
+
+<img src="/help-result.png" class="w-full">
 
 ---
 
