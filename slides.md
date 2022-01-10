@@ -1,21 +1,14 @@
 ---
-# try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: /homepage.jpeg
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+class: text-center
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
 ---
@@ -31,7 +24,7 @@ drawings:
 
 # 创新中心2021回顾
 
-- 🛠 官网和各子官网的日常维护和迭代
+- 🛠 官网和各子官网的日常维护和迭代 <span class="hl">（上线200+次) </span>
 - 📝 帮助中心的过渡性迁移 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🎨 帮助中心的彻底的重构 <span class="hl">（基于 Next.js 和 Nest.js) </span>
 - 🧑‍💻 ShopExpress 和 TeamPro 全新子官网 <span class="hl">（基于 Next.js 的多站点）</span>
@@ -168,12 +161,27 @@ layout: two-cols
 ---
 layout: full
 ---
-![shopexpress](/shopexpress.png)
+
+# ShopExpress
+<img src="/shopexpress.png" class="w-full" />
+
 ---
 layout: full
 ---
-![teampro](/teampro.png)
+# TeamPro
+<img src="/teampro.png" class="w-full" />
 ---
+layout: full
+---
+# 智慧商超
+
+<img src="/zhsc.png" class="w-full" />
+---
+
+# 智慧生鲜
+
+<img src="/zhsx.png" class="w-full" />
+
 
 # 对于前端技术部的目标贡献
 
@@ -263,4 +271,3 @@ layout: full
 - 推广页面低代码化平台的2.0版 （响应式设计和实现）
 
 - 前端Next.js的项目试点放到Serverless环境上去
-
