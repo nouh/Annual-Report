@@ -65,10 +65,11 @@ layout: full
 
 - 全端Prettier进行代码格式化，Eslint进行风格检查  <span class="hl">  --- 保持团队代码风格一致 </span>
 
+- 前后端部署在EP平台上的Node 14运行时里
+
 - 选用一些Rust Based的Tooling(Swc和Prisma)增强开发体验和性能  <span class="hl"> --- 可以战未来 </span>
 
 ---
-
 
 # 帮助中心后台文章编辑器增强
 
